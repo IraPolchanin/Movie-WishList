@@ -224,3 +224,9 @@ form {
 .wishlist-container__link {
   text-decoration: none;
 }
+
+@media (max-width: 500px) {
+  .wrapper {
+  max-width: 95%;
+  }
+}

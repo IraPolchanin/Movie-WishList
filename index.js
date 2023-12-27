@@ -99,12 +99,6 @@ function saveToStorage(movieID) {
   if (favMoviesFromLS.length < 1 || favMovieInd === -1) {
     favMoviesArray.push(favMovie);
   }
-  // if (favMovieInd >= 0) {
-  //   handleMovieBtnState(movieID)
-  // }
   localStorage.setItem('wishlist', JSON.stringify(favMoviesArray))
 }
 
-function handleMovieBtnState(movieID) {
-  console.log(movieID)
-}
