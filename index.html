@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <title>Movie Watchlist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__content">
+        <h1 class="header__title">Find your film</h1>
+        <a class="header__link" href="./wishlist.html">My Watchlist</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrapper">
+      <form id="form">
+        <input type="text" name="movie-title" class="form__movie-title" id="movie-title"
+          placeholder="Search for a movie">
+        <button class="form__btn" type="submit">Search</button>
+      </form>
+      <div class="movies-container" id="movies-container">
+        <div class="movies-container__start">
+          <img class="movies-container__start-img" src="./assets/start-icon.svg" alt="Start exploring icon">
+          <p class="movies-container__start-text">Start exploring</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>
