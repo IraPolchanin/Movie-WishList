@@ -39,7 +39,7 @@ form.addEventListener('submit', e => {
     moviesArray = [];
   }
   movieTitleValue = movieTitleInput.value;
-  fetch(`http://www.omdbapi.com/?s=${movieTitleValue}&type=movie&apikey=b3e259e1`)
+  fetch(`https://www.omdbapi.com/?s=${movieTitleValue}&type=movie&apikey=b3e259e1`)
     .then(resp => resp.json())
     .then(data => {
       if (data.Search) {
